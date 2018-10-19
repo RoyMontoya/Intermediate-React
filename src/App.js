@@ -30,7 +30,7 @@ class App extends React.Component {
     return (
       <div>
        <NavBar/>
-       <Provider store = {store}>
+       <Provider store={store}>
           <Router>
             <LoadableResults path="/" />
             <LoadableDetails path="/details/:id" />

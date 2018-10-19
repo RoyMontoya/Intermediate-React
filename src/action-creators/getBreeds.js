@@ -19,7 +19,7 @@ export default function getBreeds(){
                 ) {
                   dispatch({type: 'SET_BREEDS', payload: data.petfinder.breeds.breed})
                 } else {
-                    dispatch({type: 'SET_BREEDS', payload: []})
+                  dispatch({type: 'SET_BREEDS', payload: []})
                 }
               })
               .catch(console.error);

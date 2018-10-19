@@ -8,4 +8,4 @@ const store = createStore(reducer, compose(
     typeof window.devToolsExtention !== "undefined" ? window.devToolsExtention() : f => f
 ))
 
-export default store; 
+export default store;
